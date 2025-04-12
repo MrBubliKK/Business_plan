@@ -1,24 +1,7 @@
 \documentclass{article} % Класс документа
 
 % --- Пакеты ---
-\usepackage[utf8]{inputenc} % Кодировка UTF-8
-\usepackage[T2A]{fontenc}   % Поддержка кириллицы
-\usepackage[russian]{babel} % Язык документа
-\usepackage{amsmath, amssymb} % Математические пакеты
-\usepackage{graphicx} % Работа с изображениями
-\usepackage{geometry} % Настройка полей страницы
-\geometry{a4paper, margin=2.5cm} % Поля 2.5 см
-\usepackage{hyperref} % Гиперссылки
-\usepackage{lipsum} % Заполнитель текста (если нужно)
-\usepackage{titlesec} % Настройка заголовков
-\usepackage{tocloft} % Настройки содержания
-\usepackage{tabularx} % Добавлен пакет tabularx
-\usepackage{enumitem}
-
-\usepackage{tikz}
-\usetikzlibrary{positioning}
-\usepackage{caption}
-\usepackage{graphicx}
+\input{preamble}
 
 % --- Метаданные ---
 \title{Бизнес-план}
@@ -36,6 +19,7 @@
 \input{production_plan}
 \input{calendar_plan.tex}
 \input{management_organization.tex}
+\input{risk_analysis}
 
 \newpage
 
