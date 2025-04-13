@@ -1,4 +1,32 @@
-*
-!.gitignore
-!*.tex
-!*/
+# Лог-файлы и временные файлы
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.out
+*.toc
+*.synctex.gz
+
+# Файлы PDF и PostScript, если они генерируются автоматически
+*.dvi
+*.pdf
+*.ps
+
+# Файлы, связанные с компиляцией LaTeX (например, latexmk)
+*.fdb_latexmk
+*.fls
+
+# Файлы, созданные TeXStudio или другими редакторами
+*.sav
+
+# Папка с выходными данными (если используется структура "out")
+/out/
